@@ -1,0 +1,32 @@
+body{
+    background-color: #000000;
+    text-align: center;    
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    size: 18px;
+}
+main{
+    width: 430px;
+    height: 590px;
+    background-color: #222222;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+
+}
+#button{
+
+    width: 320px;
+    height: 80px;
+    background-color: #E95420;
+    border-radius: 5px;
+    margin:auto;
+    position: absolute;
+    margin-left: 55px;
+    bottom: 40px;
+}
+#button:hover{
+    background-color: #f96430;
+}
